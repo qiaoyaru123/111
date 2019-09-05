@@ -1,0 +1,46 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#root{
+    width: 100%;
+    height: 100%;     
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+Header{
+    width: 100%;
+    height: 90px !important;
+    display: flex !important;
+    justify-content: space-around !important;
+    border-bottom: 1px solid #ccc !important;
+    background: #fff !important;
+}
+Header div:nth-child(1){
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+Header  .img{
+    width: 120px !important;
+    height: 30px;
+}
+Header div:nth-child(2){
+    display: flex;
+    line-height: 50px;
+    align-items: center;
+}
+Header div:nth-child(2) span{
+    width: 50px;
+    height: 50px;
+    background: #ccc;
+    border-radius: 50%;
+}
+Header div:nth-child(2) p{
+    margin-left: 30px;
+}
